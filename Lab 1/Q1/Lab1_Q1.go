@@ -11,7 +11,7 @@ func main() {
 	b := 4
 
 	fmt.Printf("Addition: %d \n", a+b)
-	fmt.Printf("Substraction: %d \n", a-b)
+	fmt.Printf("Subtraction: %d \n", a-b)
 	fmt.Printf("Multiplication: %d \n", a*b)
 	fmt.Printf("Division: %d \n", a/b)
 
