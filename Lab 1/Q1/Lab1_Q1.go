@@ -7,8 +7,8 @@ import (
 func main() {
 	fmt.Println("Hello Abhinav Jha")
 	fmt.Println("Integer Operation")
-	a := 15
-	b := 4
+	a := 18
+	b := 6
 
 	fmt.Printf("Addition: %d \n", a+b)
 	fmt.Printf("Subtraction: %d \n", a-b)
@@ -16,8 +16,8 @@ func main() {
 	fmt.Printf("Division: %d \n", a/b)
 
 	fmt.Println("Float Operation")
-	c := 10.5
-	d := 2.0
+	c := 12.5
+	d := 2.5
 
 	fmt.Printf("Addition: %f \n", c+d)
 	fmt.Printf("Substraction: %f \n", c-d)

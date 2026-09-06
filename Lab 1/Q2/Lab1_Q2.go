@@ -19,8 +19,8 @@ func getInt(prompt string) int {
 			continue
 		}
 
-		if value < -1000 || value > 1000 {
-			fmt.Println("Out of range! Enter a value between -1000 and 1000.")
+		if value < -500 || value > 500 {
+			fmt.Println("Out of range! Enter a value between -500 and 500.")
 			continue
 		}
 
@@ -41,8 +41,8 @@ func getFloat(prompt string) float64 {
 			continue
 		}
 
-		if value < -1000 || value > 1000 {
-			fmt.Println("Out of range! Enter a value between -1000 and 1000.")
+		if value < -500 || value > 500 {
+			fmt.Println("Out of range! Enter a value between -500 and 500.")
 			continue
 		}
 
